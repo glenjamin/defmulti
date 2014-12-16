@@ -1,0 +1,34 @@
+{
+  "name": "defmulti",
+  "version": "0.1.0",
+  "description": "JS multimethods - Clojure inspired arbitrary dispatch",
+  "main": "defmulti.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glenjamin/defmulti.git"
+  },
+  "keywords": [
+    "multi",
+    "multimethods",
+    "multimethod",
+    "dispatch"
+  ],
+  "author": "Glen Mailer <glenjamin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glenjamin/defmulti/issues"
+  },
+  "homepage": "https://github.com/glenjamin/defmulti",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "eslint": "^0.10.1",
+    "mocha": "^2.0.1"
+  },
+  "dependencies": {
+    "hashmap": "^1.2.0"
+  }
+}
